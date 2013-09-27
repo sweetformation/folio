@@ -2,6 +2,13 @@ body {
   background: url(@noise) repeat;
 }
 
+#header {
+  margin-bottom: 15px;
+  @media (min-width: @grid-float-breakpoint) {
+     margin-bottom: 60px;
+  }
+}
+
 h1.quote-text {
   color: @themeRed;
   text-align: center;
