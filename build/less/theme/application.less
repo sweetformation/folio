@@ -2,6 +2,18 @@ body {
   background: url(@noise) repeat;
 }
 
+h1.quote-text {
+  color: @gray-light;
+  text-align: center;
+  font-size: @font-size-base + 2;
+  line-height: @line-height-base;
+  font-weight: 200;
+  margin: 30px 0;
+  @media (min-width: @grid-float-breakpoint) {
+    font-size: @font-size-base + 10;
+  }
+}
+
 #content-body {
   border-top: 1px solid @white;
 }

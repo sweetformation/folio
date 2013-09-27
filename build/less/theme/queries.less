@@ -1,96 +1,53 @@
-/* !START Responsive Queries*/
-/* !Mobile Default - Landscape phone to portrait tablet */
-// ------------------------------------------------------
-@media (max-width: 767px) {
-/* Styles */
+//
+// Grid system
+// --------------------------------------------------
 
-}// Close Query
-
-/* !Mobile - Landscape Specific */
-// ------------------------------------------------------
-@media (min-width: 480px) and (max-width: 767px) {
-/* Styles */
-
-}// Close Query
-
-/* !Mobile */
-// ------------------------------------------------------
-@media (max-width: 480px) {
-/* Styles */
-
-}// Close Query
-
-/* !Tablet - portrait to landscape and desktop */
-// ------------------------------------------------------
-@media (min-width: 768px) and (max-width: 979px) {
-/* Styles */
-
-}// Close Query
+// Extra small grid
+//
+// Grid classes for extra small devices like smartphones. No offset, push, or
+// pull classes are present here due to the size of the target.
+//
+// Note that `.col-xs-12` doesn't get floated on purpose—there's no need since
+// it's full-width.
 
 
-/* !iPads - portrait and landscape */
-// ---------------------------------------------------------------------------------------
-@media only screen and (min-device-width : 768px) and (max-device-width : 1024px) {
-/* Styles */
 
-}// Close Query
+// Small grid
+//
+// Columns, offsets, pushes, and pulls for the small device range, from phones
+// to tablets.
+//
+// Note that `.col-sm-12` doesn't get floated on purpose—there's no need since
+// it's full-width.
 
-/* !iPads - landscape */
-// ------------------------
-@media only screen 
-and (min-device-width : 768px) 
-and (max-device-width : 1024px) 
-and (orientation : landscape) {
-/* Styles */
-
-}// Close Query
-
-/* !iPads - portrait */
-// -----------------------
-@media only screen 
-and (min-device-width : 768px)
-and (max-device-width : 1024px) 
-and (orientation : portrait) {
-/* Styles */
-
-}// Close Query
-
-/* !Desktop - 980 */
-// ------------------------------------
-@media (min-width: 980px) {
-/* Styles */
-
-// Sexy Tweaks for Responsive
-
-}// Close Query
-
-/* !Large Desktop - 1200+ */
-// ----------------------------------------
-@media (min-width: 1200px) {
-/* Styles */
-
-}// Close Query
+@media (min-width: @screen-tablet) {
+  
+}
 
 
-// This is a special 
-/* !XLarge Desktop - (non-standard query) */
-// ----------------------------------------
-@media (min-width: 1441px) and (max-width: 1919px) {
-/* Styles */
+// Medium grid
+//
+// Columns, offsets, pushes, and pulls for the desktop device range.
+//
+// Note that `.col-md-12` doesn't get floated on purpose—there's no need since
+// it's full-width.
 
-}// Close Query
+@media (min-width: @screen-desktop) {
+  
+}
 
-// This is a special 
-/* !XXLarge Desktop - (non-standard query) */
-// ----------------------------------------
-@media (min-width: 1920px) and (max-width: 2560px) {
-/* Styles */
 
-}// Close Query
+// Large grid
+//
+// Columns, offsets, pushes, and pulls for the large desktop device range.
+//
+// Note that `.col-lg-12` doesn't get floated on purpose—there's no need since
+// it's full-width.
 
-/* !START Retina Queries */ 
-// (Tip: Best used only for image replacement)
-// ------------------------------------------------------------------
+@media (min-width: @screen-lg-desktop) {
+
+}
+
 
 /* !Retina - non specific width */
 @media 

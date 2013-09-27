@@ -1,10 +1,42 @@
 /* Swipejs */
+.slider-container {
+  position: relative;
+  button#prev, button#next {
+		//display: none;
+		position: absolute;
+		//#translucent .background(@black, .6);
+		font-size: @font-size-base - 5;
+		line-height: 1;
+		//font-weight: 100;
+		border: none;
+		height: 44px;
+		width: 15px;
+		color: @white;
+		background-color: @themeRed;
+		&:hover {
+			//#translucent .background(@black, .85);
+		}
+	}
+	button#prev {
+		top: 50%;
+		left: 0px;
+		text-align: left;
+		text-indent: -2px;
+	}
+	button#next {
+		top: 50%;
+		right: 0px;
+		text-align: right;
+		text-indent: -2px;
+	}
+}
+
 .swipe {
 	overflow:hidden;
 	visibility: hidden;
 	position:relative;
 	text-align:center;
-	padding-top:60px;
+	padding-top:0px;
 	//background: @black;
 	.background-size(cover);
 	background-position: center center;
@@ -82,24 +114,6 @@
 	padding: 20px 0;
 	//margin: 10px 0;
 	//background-color: @carousel-control-color;
-	button#prev, button#next {
-		display: none;
-		position: absolute;
-		text-indent: -9999px;
-		//#translucent .background(@black, .6);
-		border: none;
-		&:hover {
-			//#translucent .background(@black, .85);
-		}
-	}
-	button#prev {
-		top: -500%;
-		left: 0;
-	}
-	button#next {
-		top: -500%;
-		right: 0;
-	}
 	ul#position {
 		display: inline-block;
 		list-style: none;
