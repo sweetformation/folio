@@ -6715,11 +6715,12 @@ body {
   background: url("../img/noise.png") repeat;
 }
 h1.quote-text {
-  color: #999999;
+  color: #fd0900;
   text-align: center;
-  font-size: 16px;
-  line-height: 1.428571429;
-  font-weight: 200;
+  font-size: 22px;
+  line-height: 24px;
+  font-family: "bodedo", "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 400;
   margin: 30px 0;
 }
 @media (min-width: 768px) {
