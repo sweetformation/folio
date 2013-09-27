@@ -14,7 +14,9 @@
 		color: @white;
 		background-color: @themeRed;
 		&:hover {
-			//#translucent .background(@black, .85);
+			background-color: darken(@themeRed, 5%);
+			.box-shadow(inset 1px 1px 0px 0px lighten(@themeRed, 10%));
+			.transition(all 150ms linear);
 		}
 	}
 	button#prev {

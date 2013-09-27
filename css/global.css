@@ -6013,6 +6013,16 @@ td.visible-print {
   color: #ffffff;
   background-color: #fd0900;
 }
+.slider-container button#prev:hover,
+.slider-container button#next:hover {
+  background-color: #e40800;
+  -webkit-box-shadow: inset 1px 1px 0px 0px #ff3831;
+  box-shadow: inset 1px 1px 0px 0px #ff3831;
+  -webkit-transition: all 150ms linear;
+  -moz-transition: all 150ms linear;
+  -o-transition: all 150ms linear;
+  transition: all 150ms linear;
+}
 .slider-container button#prev {
   top: 50%;
   left: 0px;
